@@ -3,7 +3,6 @@
 # {{ page.title }} ({{ page.codename }})
 
 [Changelog]({{ "/changes/" | append: page.codename | append: ".html" | relative_url }})  
-[Update Firmware]({{ "/fw_update/" | append: page.codename | append: ".html" | relative_url }})  
 
 <a id="download-url" href="">No builds available</a>
 <br>
@@ -121,5 +120,9 @@ fetch(url).then(response => response.json()).then((json) => {
             <td align="left">Sensors</td>
             <td align="left">{{ page.sensors }}</td>
         </tr>
+	<tr>
+	    <td align="left">Recommended Firmware</td>
+	    <td align="left">{{ page.recommended_firmware }}</td>
+	</tr>
     </tbody>
 </table>

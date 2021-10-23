@@ -1,5 +1,5 @@
 ---
-title: LineageOS builds by Linux4
+title: LineageOS builds by A2L5E0X1
 ---
 
 # Supported devices

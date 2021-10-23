@@ -1,0 +1,8 @@
+---
+title: Changelog for Sample
+codename: sample
+---
+
+{% include changelog.md %}
+
+{% include_relative sample/sample.md %}
