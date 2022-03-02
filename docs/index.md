@@ -1,4 +1,5 @@
 ---
+layout: default
 title: LineageOS builds by A2L5E0X1
 ---
 
