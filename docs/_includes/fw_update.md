@@ -1,9 +1,9 @@
+{% assign device = site.data.devices[page.codename] %}
 [Home]({{ "/" | relative_url }})
 
 # {{ page.title }} ({{ page.codename }})
 
-{% assign models = page.models | split: ";" %}
-{% for model in models %}
+{% for model in device.models %}
 <h2>Download latest Firmware for {{ model }}</h2>
 {% assign fw_url = site.firmware-update-raw | append: model %}
 {% fetch fwversion fw_url %}

@@ -1,0 +1,21 @@
+models: Sample-Model
+recovery_size: 67633152
+
+chipset: Sample SOC
+cpu: Quad-core
+gpu: Sample GPU
+ram: 2 GB
+shipped_version: 2.3.6 (up to 4.4.4)
+storage: 16 GB EMMC
+sim: Single SIM
+microsd: Up to 2 TB (uses shared SIM slot)
+battery: 2000 mAh Li-Ion (non-removable)
+dimensions: 142.2 x 69.9 x 7.9 mm (5.60 x 2.75 x 0.31 in)
+display: 5 inches, 1080 x 1920 pixels, 16:9 ratio
+rear_cameras:
+  - 16 MP
+  - 8 MP
+front_cameras: 5 MP
+fingerprint: none
+sensors: Accelerometer, Gyro, Proximity, Compass, Barometer
+recommended_firmware: V1
