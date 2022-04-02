@@ -20,7 +20,7 @@ rear_cameras: 13 MP, AF
 front_cameras: 8 MP, f/2.0
 fingerprint: yes (rear-mounted)
 sensors: Accelerometer, Proximity, Compass
-recommended_firmware: FIG-LX1 9.1.0.163(C432E8R1P5T8)
+recommended_firmware: 9.1.0.163(C432xxx) - 12-2019 security patch
 ---
 
 {% include deviceinfo.md %}

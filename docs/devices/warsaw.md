@@ -19,7 +19,7 @@ rear_cameras: 12 MP, f/2.2, 1/2.8", 1.25µm, PDAF
 front_cameras: 8 MP, f/2.0, AF
 fingerprint: yes (rear-mounted)
 sensors: Accelerometer, Gyro, Proximity, Compass
-recommended_firmware: WAS-LX1 8.0.0.397(C432), WAS-LX1A 8.0.0.398(C432)
+recommended_firmware: 8.0.0.397/8.0.0.398(C432) - 09-2020/01-2021 security patch
 ---
 
 {% include deviceinfo.md %}

@@ -19,7 +19,7 @@ rear_cameras: 12 MP, AF
 front_cameras: 8 MP, f/2.0
 fingerprint: yes (rear-mounted)
 sensors: Accelerometer, Proximity, Compass
-recommended_firmware: PRA-LX1 8.0.0.412(C432)
+recommended_firmware: 8.0.0.412(C432) - 01-2021 security patch
 ---
 
 {% include deviceinfo.md %}
