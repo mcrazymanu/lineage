@@ -3,6 +3,7 @@ title: Huawei P Smart 2018/Enjoy 7S
 codename: figo
 models: FIG-LX1/FIG-LA1/FIG-LX2/FIG-LX3/FIG-TL10/FIG-AL10
 recovery_size: 33554432
+has_recoveryvendor: true
 
 chipset: HiSilicon Kirin 659 (hi6250)
 cpu: Octa-core (4x2.36 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)

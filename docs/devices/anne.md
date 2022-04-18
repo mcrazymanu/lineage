@@ -3,6 +3,7 @@ title: Huawei P20 Lite/Nova 3e
 codename: anne
 models: ANE-AL00/ANE-LX1/ANE-LX2/ANE-LX2J/ANE-LX3/ANE-TL00
 recovery_size: 33554432
+has_recoveryvendor: true
 
 chipset: HiSilicon Kirin 659 (hi6250)
 cpu: Octa-core (4x2.36 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)

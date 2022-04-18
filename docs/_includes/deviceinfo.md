@@ -11,6 +11,11 @@
 <a id="download-recovery-url" href="">No recovery builds available</a>
 <br>
 <a id="download-recovery-url-sha256" href="" style="display: none;">sha256</a>
+{% if page.has_recoveryvendor %}
+<a id="download-recoveryvendor-url" href="">No recovery_vendor builds available</a>
+<br>
+<a id="download-recoveryvendor-url-sha256" href="" style="display: none;">sha256</a>
+{% endif %}
 
 <script type="text/javascript">
 let url = "{{ site.lineage_ota_base_url | append: page.codename | append: ".json" }}";
@@ -38,6 +43,17 @@ fetch(url).then(response => response.json()).then((json) => {
     let downloadRecoverySHA256 = document.getElementById("download-recovery-url-sha256");
     downloadRecoverySHA256.href = downloadRecovery.href + ".sha256";
     downloadRecoverySHA256.style.display = "inline-block";
+
+{% if page.has_recoveryvendor %}
+    let downloadRecoveryVendor = document.getElementById("download-recoveryvendor-url");
+    downloadRecoveryVendor.href = json.response[0].url.replace("UNOFFICIAL", "recovery_vendor").replace(".zip", ".img");
+    downloadRecoveryVendor.innerHTML = "Download recovery_vendor " + json.response[0].filename.replace("UNOFFICIAL", "recovery_vendor").replace(".zip", ".img");
+
+    let downloadRecoveryVendorSHA256 = document.getElementById("download-recoveryvendor-url-sha256");
+    downloadRecoveryVendorSHA256.href = downloadRecoveryVendor.href + ".sha256";
+    downloadRecoveryVendorSHA256.style.display = "inline-block";
+{% endif %}
+
 });
 </script>
 
