@@ -137,6 +137,10 @@ fetch(url).then(response => response.json()).then((json) => {
             <td align="left">{{ page.sensors }}</td>
         </tr>
 	<tr>
+	    <td align="left">Supported Models</td>
+	    <td align="left">{{ page.supported_models }}</td>
+	</tr>
+	<tr>
 	    <td align="left">Recommended Firmware</td>
 	    <td align="left">{{ page.recommended_firmware }}</td>
 	</tr>
