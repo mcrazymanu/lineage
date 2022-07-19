@@ -3,6 +3,9 @@
 # {{ page.title }} ({{ page.codename }})
 
 [Changelog]({{ "/changes/" | append: page.codename | append: ".html" | relative_url }})  
+{% if page.is_samsung %}
+[Update Firmware]({{ "/fw_update/" | append: page.codename | append: ".html" | relative_url }})  
+{% endif %}
 
 <a id="download-url" href="">No builds available</a>
 <br>
