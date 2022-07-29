@@ -1,6 +1,7 @@
 models:
   - SM-M127F
   - SM-M127G
+  - SM-F127G
 recovery_size: 55574528
 
 chipset: Exynos 850 (8nm)
@@ -14,10 +15,11 @@ microsd: microSDXC (dedicated slot)
 battery: 5000/6000 mAh Li-Po (non-removable)
 dimensions: 164 x 75.9 x 9.7 mm (6.46 x 2.99 x 0.38 in)
 display: 6.5 inches, 720 x 1600 pixels, 20:9 ratio
-rear_cameras: 48 MP, f/2.0, (wide), 1/2.0", 0.8µm, PDAF
-              5 MP, f/2.2, 123˚ (ultrawide)
-              2 MP, f/2.4, (macro)
-              2 MP, f/2.4, (depth)
+rear_cameras:
+  - 48 MP, f/2.0, (wide), 1/2.0", 0.8µm, PDAF
+  - 5 MP, f/2.2, 123˚ (ultrawide)
+  - 2 MP, f/2.4, (macro)
+  - 2 MP, f/2.4, (depth)
 front_cameras: 8 MP, f/2.2, (wide)
 fingerprint: Goodix (side-mounted)
 sensors: Accelerometer, Virtual proximity sensing
