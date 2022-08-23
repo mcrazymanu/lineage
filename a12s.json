@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1661272272",
+      "filename": "lineage-19.1-20220823-UNOFFICIAL-A2L5E0X1-a12s.zip",
+      "id": "23f444e14beba6be12c5c71cfc759ecac05da59e8a608585c7032c96cb5eb343",
+      "romtype": "UNOFFICIAL",
+      "size": "821538434",
+      "url": "https://github.com/A2L5E0X1/lineage/releases/download/a12s-20220823/lineage-19.1-20220823-UNOFFICIAL-A2L5E0X1-a12s.zip",
+      "version": "19.1"
+    }
+  ]
+}
